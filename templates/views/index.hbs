@@ -1,0 +1,19 @@
+{{>head}}
+	<div class="main-content">
+		<section class="title-bar">{{>header}}<h4>{{subtitle}}</h4></section>
+		<section>{{>navbar}}</section>
+		<section id="form-section">
+			<form id="getWeather" name="getWeather">
+				<label for="location">Enter Location: </label>
+				<input id="locationInput" class ="form-control" type="text" name="locationInput" />
+				<hr />
+				<button id="btnSubmit" class="btn btn-dark" type="submit">Submit Location</button>
+				<hr />
+			</form>
+			<span id="wData"></span>
+		</section>
+	</div>
+	{{>footer}}
+	<script src="./js/app.js"></script>
+</body>
+</html>

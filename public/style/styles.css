@@ -1,0 +1,14 @@
+body {display: flex; flex-direction:column; min-height: 100vh; background-color: #222; color: #FFF; text-align: center;margin: 0px; padding: 0px; max-width: 100%; height:100%;}
+section {margin: 1rem 0rem;}
+.title-bar {margin: 4rem 0rem;}
+img {width: 100%;}
+footer {margin: 0 auto; width: 80%; border-top: #FFF solid 1px;}
+footer p {margin: 2rem 0rem;}
+.main-content {flex-grow: 1;}
+#form-section {width: 50%; margin: 2rem auto;background-color: #fff;color: #222;padding: 2rem;}
+#form-section ul {padding: 0px;}
+#location{font-weight: 700;}
+
+@media(max-width: 1024px) {
+	#form-section {width: 80%;}
+}

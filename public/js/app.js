@@ -6,7 +6,6 @@ getWeather.addEventListener('submit', (e) => {
 	dataDiv.innerHTML = `<h2>Loading....</h2>`;
 
 	e.preventDefault();
-	console.log(loc.value);
 	fetch(`./weather?location=${loc.value}`)
 		.then((resp) => resp.json().then((data) => {
 			if (data.error) {

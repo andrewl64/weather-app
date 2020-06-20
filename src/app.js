@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 		page: 'About',
 		title: 'Welcome to the About page',
 		subtitle: 'What is this weather app?',
-		message: 'This is a simple weather app build with NodeJS.',
+		message: 'This is a simple weather app build with NodeJS. This application uses data from mapbox.com and weatherstack.com',
 	});
 });
 app.get('/help', (req, res) => {

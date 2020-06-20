@@ -22,6 +22,8 @@ getWeather.addEventListener('submit', (e) => {
 					<p>${data.Temperature}</p>
 					<h5>Weather Condition</h5>
 					<p>${data['Weather Condition']}</p>
+					<h5>Date & Time</h5>
+					<p>${data.Time}</p>
 				</ul>
 			`;
 		}));

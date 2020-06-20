@@ -15,6 +15,7 @@ const forecast = (long, lat, cbf) => {
 				Location: `${location.name}, ${location.country}`,
 				Temperature: current.temperature,
 				Description: current.weather_descriptions[0],
+				Time:  location.localtime,
 			});
 		}
 	});
